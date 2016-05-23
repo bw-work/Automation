@@ -1,0 +1,11 @@
+<suite name="TestSuite" thread-count="3">
+    <parameter name="author" value="Ben"/>
+    <parameter name="searchKey" value="India"/>
+    <test name="testGuru">
+        <parameter name="searchKey" value="UK"/>
+        <classes>
+            <class name="TestWithParameters">
+            </class>
+        </classes>
+    </test>
+</suite>
